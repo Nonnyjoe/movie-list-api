@@ -1,0 +1,209 @@
+:root {}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(./images/ezgif.com-gif-maker\ \(8\).jpg);
+    background-position: center;
+    backdrop-filter: blur(5px);
+    background-attachment: fixed;
+}
+
+.miniBody {
+    background-color: #000000db;
+    min-height: 100vh;
+}
+
+nav.navbar.navbar-light.bg-light {
+    background-color: #7c7c7c70!important;
+    height: 4.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 4rem;
+}
+
+a.navbar-brand {
+    color: red !important;
+    font-family: 'Dangrek', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.logo {
+    font-weight: 700 !important;
+    font-size: 1.7rem;
+}
+
+.nav-links i {
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 1rem;
+    transition: all .5s ease;
+}
+
+.nav-links i:hover {
+    color: rgb(148, 7, 7) !important;
+}
+
+.red {
+    color: red !important;
+}
+
+.movie-wrapper {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.movie-search {
+    text-align: center;
+}
+
+#search-response,
+#bSearch-response {
+    font-size: 1rem;
+    color: white;
+}
+
+.movie-item {
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.movie-item i {
+    color: red;
+    position: absolute;
+    z-index: 2;
+    font-size: 2.5rem;
+    right: 10px;
+    top: -4px;
+    transition: all .5s ease;
+}
+
+.movie-item i:hover {
+    color: black;
+}
+
+.search-btn {
+    background-color: red !important;
+    color: white !important;
+    height: 3rem;
+    margin-left: 0rem;
+    border-radius: 0px;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
+    justify-content: center;
+    text-align: center;
+    outline: none;
+}
+
+.search-input {
+    width: 80%;
+    min-width: 20rem;
+    height: 3rem;
+    margin-right: 0rem;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    padding-left: 1.3rem;
+    outline: none;
+    border: 2px solid #7c7c7c2b;
+    background-color: #7c7c7c2b;
+    color: white;
+}
+
+.form.mb-5 {
+    display: flex;
+    justify-content: center;
+}
+
+a.btn {
+    border: 2px solid white;
+    color: white;
+    border-radius: 19px;
+    outline: none;
+}
+
+a.btn:focus,
+button#searchBtn:focus {
+    box-shadow: none;
+}
+
+a.btn:hover {
+    color: white;
+}
+
+.card.movie-item.mb-3 {
+    background: #7c7c7c2b;
+    color: white;
+}
+
+.movie-result.mt-5 {
+    color: white;
+}
+
+.movie-result h2 {
+    font-family: 'Pacifico', cursive;
+}
+
+.movies-controler {
+    margin: 0px !important;
+}
+
+.movies {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.noDisplay {
+    display: none;
+}
+
+.bookmark-result {
+    transition: all .5s ease;
+}
+
+.bookmark-result h2 {
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+.content {
+    position: relative;
+}
+
+.movieDetails {
+    color: whitesmoke;
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #7c7c7c70!important;
+    border-radius: 2rem;
+    width: 95%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 5;
+    top: 0px;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.movieDetails img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    position: center;
+}
+
+.movieDetails h2 {
+    color: red;
+}
+
+.close {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.438) !important;
+    color: white !important;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.438);
+}
