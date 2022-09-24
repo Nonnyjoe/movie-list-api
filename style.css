@@ -6,11 +6,14 @@ body {
     background-position: center;
     backdrop-filter: blur(5px);
     background-attachment: fixed;
+    padding: 0px;
 }
 
 .miniBody {
     background-color: #000000db;
     min-height: 100vh;
+    width: 100vw;
+    margin: 0px;
 }
 
 nav.navbar.navbar-light.bg-light {
@@ -24,7 +27,7 @@ nav.navbar.navbar-light.bg-light {
 a.navbar-brand {
     color: red !important;
     font-family: 'Dangrek', cursive;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 2px;
 }
 
@@ -98,7 +101,7 @@ a.navbar-brand {
 
 .search-input {
     width: 80%;
-    min-width: 20rem;
+    min-width: 18rem;
     height: 3rem;
     margin-right: 0rem;
     border-top-left-radius: 24px;

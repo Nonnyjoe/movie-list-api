@@ -11,6 +11,14 @@ let movieResult = document.getElementById('movieResult');
 let bookmarkResult = document.getElementById('bookmarkResult');
 let moreDetailsCont = document.getElementById('moreDetailsCont');
 let movieWrapper = document.getElementById('movieWrapper');
+let logo = document.getElementById('logo');
+
+logo.addEventListener('click', (e) => {
+    e.preventDefault();
+    document.location.reload(true);
+    console.log(e.target);
+});
+
 
 // display homepage movies
 let displayMovies = () => {
@@ -87,7 +95,7 @@ function display(result) {
             <div class="card movie-item mb-3" id="${resul.show.id}" style="width: 18rem;">
                 <i class="fa-regular fa-bookmark ${noBooked}" id="bookmark"></i>
                 <i class="fa-solid fa-bookmark ${booked}" id="noBookmark"></i>
-                <img src="${resul.show.image.medium}" class="card-img-top movie-image" alt="...">
+                <img src="${resul.show.image.original}" class="card-img-top movie-image" alt="...">
                 <div class="card-body">
             <h5 class="card-title" id="movieTitle">${resul.show.name}</h5>
             <a href="#" class="btn" id="moreBtn">More information</a>
